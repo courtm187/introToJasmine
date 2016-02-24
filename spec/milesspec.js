@@ -17,7 +17,7 @@ describe('miles', function(){
 
 
     expect(miles.hasEnoughGas(car, route)).toEqual(false);
-    car.gallonsInTank += 20
+    car.gallonsInTank += 20;
     expect(miles.hasEnoughGas(car, route)).toEqual(true);
   });
 });
